@@ -1,14 +1,17 @@
+/*margini generali*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*sfondo e font*/
 body {
   background-color:rgb(246, 248, 249);
   font-family: sans-serif;
 }
 
+/*margini container*/
 .container {
   width: 60%;
   height: auto;
@@ -18,6 +21,7 @@ body {
   padding-bottom: 10px;
 }
 
+/*font e sfondo header*/
 #header-top {
   color:black;
   font-size: 50px;
@@ -28,11 +32,13 @@ body {
   background-color: white;
 }
 
+/*dimensione e allineamento logo*/
 #header-top img {
   width: 75px;
   vertical-align: middle;
 }
 
+/*formattazione generale bottoni*/
 .container button {
   padding: 10px 20px 10px 20px;
   margin: 30px 0px 20px;
@@ -40,6 +46,7 @@ body {
   border-radius: 10px;
 }
 
+/*formattazione primo bottone*/
 .container .first-button {
   margin-left: 100px;
   background-color:white; 
@@ -48,6 +55,7 @@ body {
   color: white
 }
 
+/*formattazione secondo bottone*/
 .container .secondary-button {
   margin-left: 10px;
   background-color:white;
@@ -55,6 +63,7 @@ body {
   color: rgb(204, 208, 213);
 }
 
+/*formattazione linea*/
 .container hr {
   color: rgba(204, 208, 213, 0.491);
   background: rgba(204, 208, 213, 0.491);
@@ -62,16 +71,19 @@ body {
   height: 2px;
 }
 
+/*margini sezione a scomparsa*/
 .container summary {
   margin: 30px 100px 20px;
 }
 
+/*formattazione sezione a scomparsa*/
 .container details {
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 40px;
 }
 
+/*formattazione marcatori generale*/
 details li::before {
   display: inline-block;
   align-content: center;
@@ -84,6 +96,7 @@ details li::before {
   margin-right: 15px;
 }
 
+/*marcatore spunta*/
 details li.true::before {
   content: '\2713';
   color:green;
@@ -91,6 +104,7 @@ details li.true::before {
   border-color: green;
 }
 
+/*marcatore croce*/
 details li.false::before {
   content: '\2717';
   color:red;
@@ -98,6 +112,7 @@ details li.false::before {
   border-color: red;
 }
 
+/*formattazione lista*/
 details li {
   margin-left: 100px;
   padding-left: 0px;
@@ -108,7 +123,7 @@ details li {
   list-style: none;
 }
 
-
+/*formattazione tag generale*/
 details li.tag::after {
   padding: 10px 20px 10px 20px;
   margin: 30px 20px 20px;
@@ -118,31 +133,37 @@ details li.tag::after {
   font-weight: 300;
 }
 
+/*tag editorial*/
 details li.tag.editorial::after {
   content: "Editorial";
   background-color: rgb(71, 173, 241);
 }
 
+/*tag q1goals*/
 details li.tag.q1goals::after {
   content: "Q1 Goals";
   background-color: rgb(154, 112, 224);
 }
 
+/*tag recruiting*/
 details li.tag.recruiting::after {
   content: "Recruiting";
   background-color:rgb(100, 192, 169);
 }
 
+/*tag mobile*/
 details li.tag.mobile::after {
   content: "Mobile";
   background-color: orange;
 }
 
+/*tag website*/
 details li.tag.website::after {
   content: "Website";
   background-color:rgb(216, 98, 160);
 }
 
+/*tag sales*/
 details li.tag.sales::after {
   content: "Sales";
   background-color:rgb(176, 201, 38);
