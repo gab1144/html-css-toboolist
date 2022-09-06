@@ -67,25 +67,52 @@ body {
 }
 
 .container details {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 800;
   margin-bottom: 40px;
 }
 
+details li{
+  list-style: none;
+}
+
+
+details li.true::before {
+  display: inline-block;
+  content: '\2713';
+  align-content: center;
+  font-size: 30px;
+  color:green;
+  width: 10px;
+  height: 10px;
+  border: 1px solid;
+  border-color: green;
+  border-radius: 100%;
+  padding: 5px 30px 30px 5px;
+}
+
+details li.false::before {
+  display: inline-block;
+  content: '\2717';
+  align-content: center;
+  font-size: 30px;
+  color:red;
+  width: 10px;
+  height: 10px;
+  border: 1px solid;
+  border-color: red;
+  border-radius: 100%;
+  padding: 5px 30px 30px 5px;
+}
+
 details li {
-  margin-left: 125px;
-  padding-left: 10px;
+  margin-left: 100px;
+  padding-left: 0px;
   margin-bottom: 40px;
+  font-size: 25x;
+  font-weight: 400;
+  color: black;
 }
-
-details li.true {
-  list-style: '\2713';
-}
-
-details li.false {
-  list-style: '\2717';
-}
-
 /*
 details li.editorial::after {
   padding: 10px 20px 10px 20px;
