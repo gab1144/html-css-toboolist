@@ -11,10 +11,11 @@ body {
 
 .container {
   width: 60%;
-  height: 600px;
+  height: auto;
   background-color: white;
   margin: 50px auto;
   border-radius: 20px;
+  padding-bottom: 10px;
 }
 
 #header-top {
@@ -59,4 +60,28 @@ body {
   background: rgba(204, 208, 213, 0.491);
   border: 0;
   height: 2px;
+}
+
+.container summary {
+  margin: 30px 100px 20px;
+}
+
+.container details {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+details li {
+  margin-left: 125px;
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+details li.true{
+  list-style: '\2713';
+}
+
+details li.false{
+  list-style: '\2717';
 }
