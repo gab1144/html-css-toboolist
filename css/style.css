@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:rgb(246, 248, 249);
+}
+
+#header-top{
+  color:black;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: sans-serif;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+#header-top img{
+  width: 75px;
+  vertical-align: middle;
+}
